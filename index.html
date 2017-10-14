@@ -2,11 +2,17 @@
 <head>
   <title>INVIE</title>
   <style>
-body{margin:0}
+body{margin:0; padding: 0;}
 img{max-width: 100%; vertical-align: top}
+img#res{display: none}
+@media (max-width: 768px) {
+  img{display: none}
+  img#res{ display: block;}
+}
   </style>
 </head>
 <body>
+  <img id="res" src="invie-responsive.png"/>
   <img src="header.jpg"/>
   <img src="hero.jpg"/>
   <img src="acustica.jpg"/>
