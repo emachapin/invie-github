@@ -4,9 +4,15 @@
   <style>
 body{margin:0; border: 10px solid red}
 img{max-width: 100%; vertical-align: top}
+img#res{display: none}
+@media (max-width: 768px) {
+  img{display: none}
+  img#res{ display: block;}
+}
   </style>
 </head>
 <body>
+  <img id="res" src="invie-responsive.png"/>
   <img src="header.jpg"/>
   <img src="hero.jpg"/>
   <img src="acustica.jpg"/>
